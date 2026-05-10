@@ -1,0 +1,97 @@
+{
+  "theme": "dark",
+  "archetype": "4 (Swiss & High-Contrast) blended with 5 (Jewel & Luxury - Dark Tech Variant)",
+  "concept": "NovaNest - A premium, Apple/Linear-inspired futuristic productivity platform. Emphasizes dark space, subtle light leaks (cyan/indigo), sharp typography, and 'tracing beam' active states. Deep obsidian base with glassmorphism to feel like a high-end tool.",
+  "colors": {
+    "background": "#050505",
+    "surface": "#121212",
+    "surface_glass": "rgba(10, 10, 10, 0.6)",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "border": "rgba(255, 255, 255, 0.08)",
+    "brand_accent_cyan": "#00E5FF",
+    "brand_accent_indigo": "#4F46E5",
+    "gradient_glow": "linear-gradient(135deg, rgba(79,70,229,0.2) 0%, rgba(0,0,0,0) 50%, rgba(0,229,255,0.2) 100%)",
+    "pro_tier_glow": "0 0 40px rgba(0, 229, 255, 0.15)"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "h1": "text-5xl md:text-6xl+ font-medium tracking-tighter leading-tight",
+    "h2": "text-3xl md:text-4xl font-medium tracking-tight",
+    "h3": "text-xl md:text-2xl font-medium tracking-tight",
+    "body": "text-base md:text-lg text-zinc-400 leading-relaxed",
+    "overline": "text-xs font-bold uppercase tracking-[0.2em] text-zinc-500",
+    "rule": "Never use Inter for headings. Keep headings tight and punchy."
+  },
+  "layout_and_spacing": {
+    "section_padding": "py-24 md:py-32",
+    "container": "max-w-7xl mx-auto px-6 lg:px-8",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6",
+    "card_padding": "p-8 md:p-10"
+  },
+  "components": {
+    "header": {
+      "style": "fixed top-0 w-full z-50 backdrop-blur-xl bg-black/60 border-b border-white/5",
+      "nav_links": "text-sm font-medium text-zinc-400 hover:text-white transition-colors"
+    },
+    "buttons": {
+      "primary": "bg-white text-black hover:bg-zinc-200 px-6 py-3 rounded-full font-medium transition-all",
+      "secondary": "bg-white/5 border border-white/10 text-white hover:bg-white/10 px-6 py-3 rounded-full font-medium transition-all backdrop-blur-md"
+    },
+    "cards": {
+      "default": "bg-[#0A0A0A] border border-white/10 rounded-3xl overflow-hidden relative group",
+      "hover_effect": "hover:border-white/20 transition-colors duration-300",
+      "tracing_beam": "Use framer-motion or CSS masks to create a subtle glow along the border on hover."
+    },
+    "interactive_dashboard": {
+      "instruction": "Build a stunning mock UI using Tailwind grid, Shadcn-like charts (Recharts), and framer-motion. Use rounded corners (16px), dense information hierarchy, and glass headers to simulate an actual app."
+    }
+  },
+  "motion_and_interactions": {
+    "scroll_reveal": "Staggered fade-up (y: 20, opacity: 0 -> 1) using framer-motion.",
+    "hover_lift": "hover:-translate-y-1 transition-transform duration-300",
+    "cursor_glow": "A fixed 400x400 radial gradient tracking mouse coordinates with a blur-3xl, opacity 10%.",
+    "scroll_progress": "A fixed top framer-motion progress bar in brand cyan."
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/6c3ca1fd-7885-4bce-9fb9-61d5425ba3cc/images/95231653ab20171c000ed6b500c8a4a601a0e5b190ef79e39381416fd42a45c1.png",
+      "description": "Deep dark background with subtle elegant glowing aurora light leaks",
+      "usage": "Use as an absolute positioned background behind the hero section with opacity-40 and mix-blend-screen."
+    },
+    "abstract_accents": [
+      {
+        "url": "https://images.unsplash.com/photo-1772214832215-5597cc76876e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxkYXJrJTIwYWJzdHJhY3QlMjBnbGFzcyUyMHRlY2glMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3ODQxMTk0NXww&ixlib=rb-4.1.0&q=85",
+        "usage": "Use for feature card backgrounds or CTA section with low opacity"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1770031079085-0ac797e07fe5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxkYXJrJTIwYWJzdHJhY3QlMjBnbGFzcyUyMHRlY2glMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3ODQxMTk0NXww&ixlib=rb-4.1.0&q=85",
+        "usage": "Use as texture layer in pricing Pro tier"
+      }
+    ],
+    "logos": [
+      "https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHw0fHx0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjBtb25vY2hyb21lfGVufDB8fHx8MTc3ODQxMTkyOXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1562705121-e624542c7b9b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHx0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjBtb25vY2hyb21lfGVufDB8fHx8MTc3ODQxMTkyOXww&ixlib=rb-4.1.0&q=85"
+    ],
+    "avatars": [
+      "https://images.unsplash.com/photo-1769636929388-99eff95d3bf1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDB8fHx8MTc3ODQxMTkyOXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1762522926157-bcc04bf0b10a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDB8fHx8MTc3ODQxMTkyOXww&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/14589344/pexels-photo-14589344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/14585727/pexels-photo-14585727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "specific_instructions_to_main_agent": [
+    "Install and use 'lucide-react' for all icons.",
+    "Install 'framer-motion' for animations (cursor glow, scroll progress, page reveals).",
+    "Install 'recharts' for the Interactive Dashboard Preview section.",
+    "Do not use generic blue/purple linear gradients. Instead, build soft glowing backgrounds using radial-gradients with cyan and indigo blurred heavily behind dark glass.",
+    "For the 'Interactive Dashboard Preview', build a composite of fake UI cards (Charts, Tasks, Habit Streaks) overlapping each other or arranged in a tight Bento grid to simulate an app screenshot.",
+    "Ensure the 'Pro' tier in Pricing has a distinct glow ('box-shadow: 0 0 40px rgba(0, 229, 255, 0.15)') and a subtle border gradient.",
+    "Add a custom cursor component tracking mouse movement that paints a soft glow underneath the UI elements using mix-blend-mode.",
+    "Apply 'data-testid' to all buttons, links, and accordion items.",
+    "Use 'Outfit' font for headings via Google Fonts import in index.css.",
+    "Make sure the navbar is sticky, blurred, and updates styling slightly on scroll if possible.",
+    "Testimonials should use the provided avatar images in a slick Framer Motion carousel or responsive grid."
+  ]
+}
